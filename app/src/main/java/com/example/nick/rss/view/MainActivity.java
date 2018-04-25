@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
             MultiListFragment fragment = new MultiListFragment();
             fragmentTransaction.add(R.id.fragmentContainer,fragment);
             fragmentTransaction.commit();
+
         }
 
 
